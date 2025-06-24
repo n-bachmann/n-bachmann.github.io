@@ -724,7 +724,7 @@ ol {
 	}
 
 ul {
-	list-style: disc;
+	list-style: none; /*#disc*/
 	margin: 0 0 2rem 0;
 	padding-left: 1em;
 }
@@ -1148,7 +1148,7 @@ button {
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 		/* We can change the background image here. */
-		background-image: url("../../images/pic01.jpg");
+		background-image: url("../../images/pic01.jpg"); /*pi01.jpg background.jpeg*/
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1161,10 +1161,10 @@ button {
 		-webkit-transform: scale(1.0825);
 		-ms-transform: scale(1.0825);
 		transform: scale(1.0825);
-		-moz-filter: blur(0.2rem);
+		/* -moz-filter: blur(0.2rem);
 		-webkit-filter: blur(0.2rem);
 		-ms-filter: blur(0.2rem);
-		filter: blur(0.2rem);
+		filter: blur(0.2rem); */
 	}
 
 	body.is-preload #bg:before {
